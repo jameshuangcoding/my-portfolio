@@ -8,11 +8,11 @@ const About = () => {
         <h2 className='text-lg font-bold uppercase lg:sr-only'>about</h2>
       </div>
       <p className='mb-4'>
-        i enjoy tackling complex problems and building large scale applications
+        I enjoy tackling complex problems and building large scale applications
         to make people&apos;s lives better and simpler, including my own.
       </p>
       <p className='mb-4'>
-        in my free time, you can catch me paddling in a dragon boat, playing
+        In my free time, you can catch me paddling in a dragon boat, playing
         pickleball at the courts, or snowboarding in the mountains.
       </p>
       <p></p>

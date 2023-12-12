@@ -14,7 +14,7 @@ const Skills = () => {
       </div>
       <div className='flex justify-between'>
         <span className='flex flex-col'>
-          <h3 className='font-bold'>languages</h3>
+          <h3 className='font-bold'>Languages</h3>
           <ul>
             {languages.map((language, index) => (
               <li key={index}>{language}</li>
@@ -22,7 +22,7 @@ const Skills = () => {
           </ul>
         </span>
         <span className='flex flex-col'>
-          <h3 className='font-bold'>frameworks</h3>
+          <h3 className='font-bold'>Frameworks</h3>
           <ul>
             {frameworks.map((framework, index) => (
               <li key={index}>{framework}</li>
@@ -30,7 +30,7 @@ const Skills = () => {
           </ul>
         </span>
         <span className='flex flex-col'>
-          <h3 className='font-bold'>tools</h3>
+          <h3 className='font-bold'>Tools</h3>
           <ul>
             {tools.map((tool, index) => (
               <li key={index}>{tool}</li>
