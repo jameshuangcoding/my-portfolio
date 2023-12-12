@@ -1,24 +1,17 @@
 import Link from 'next/link';
+import { navLinks } from '../utils/navlinks';
 
 const Navbar = () => {
   return (
-    <div className='flex flex-col p-4'>
-      <h1>
-        <Link href='/'>home</Link>
-      </h1>
-      <h1>
-        <Link href='/about'>about</Link>
-      </h1>
-      <h1>
-        <Link href='/skills'>skills</Link>
-      </h1>
-      <h1>
-        <Link href='/experience'>experience</Link>
-      </h1>
-      <h1>
-        <Link href='/projects'>projects</Link>
-      </h1>
-    </div>
+    <nav className='hidden lg:block'>
+      <ul className='text-lg mt-10 w-max'>
+        {navLinks.map((navLink, index) => (
+          <li key={index}>
+            <Link href={navLink.path}>{navLink.name}</Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 };
 

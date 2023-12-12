@@ -3,12 +3,12 @@ import { IoLogoGithub } from 'react-icons/io';
 import { IoIosMail } from 'react-icons/io';
 import { FaFileContract } from "react-icons/fa6";
 
-export interface LinkI {
+export interface Link {
   path: string;
   icon: React.ReactNode;
 }
 
-export const links: LinkI[] = [
+export const links: Link[] = [
   {
     path: 'https://www.linkedin.com/in/jameshuang07/',
     icon: <FaLinkedin />,

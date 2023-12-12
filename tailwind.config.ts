@@ -5,15 +5,14 @@ const config: Config = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './containers/**/*.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
     extend: {
       colors: {
-        'taupe-gray': '#919098',
-        'white-smoke': '#F5F5F5',
-        'orange-soda': '#fa5b3d',
         'onyx': '#393D3F',
-        'new-white': '#FDFDFF'
+        'new-white': '#FDFDFF',
+        'slight-grey': '#F8F8F8',
       },
       fontFamily: {
         sans: ['var(--font-inter)'],
