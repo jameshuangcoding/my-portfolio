@@ -2,8 +2,11 @@ const About = () => {
   return (
     <section
       id='about'
-      className='text-md flex flex-wrap mb-16 scroll-mt-16 md:mb- 24 lg:mb-36 lg:scroll-mt-32'
+      className='flex flex-wrap mb-16 scroll-mt-16 md:mb- 24 lg:mb-36 lg:scroll-mt-32'
     >
+      <div className="mb-4 lg:sr-only">
+        <h2 className='text-lg font-bold uppercase lg:sr-only'>about</h2>
+      </div>
       <p className='mb-4'>
         i enjoy tackling complex problems and building large scale applications
         to make people&apos;s lives better and simpler, including my own.

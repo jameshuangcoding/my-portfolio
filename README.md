@@ -6,8 +6,6 @@ This is the code for my website.
 
 1. Install dependencies
 ```
-npm i
-# or
 npm install
 ```
 

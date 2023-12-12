@@ -6,8 +6,11 @@ const Experience = () => {
   return (
     <section
       id='experience'
-      className='text-md mb-16 scroll-mt-16 md:mb- 24 lg:mb-36 lg:scroll-mt-32'
+      className='mb-16 scroll-mt-16 md:mb- 24 lg:mb-36 lg:scroll-mt-32'
     >
+      <div className='mb-4 lg:sr-only'>
+        <h2 className='text-lg font-bold uppercase lg:sr-only'>experience</h2>
+      </div>
       <div>
         {experiences.map((experience, index) => (
           <div key={index}>

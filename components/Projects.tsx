@@ -8,6 +8,9 @@ const Projects = () => {
       id='projects'
       className='text-md mb-16 scroll-mt-16 md:mb- 24 lg:mb-36 lg:scroll-mt-32'
     >
+      <div className='mb-4 lg:sr-only'>
+        <h2 className='text-lg font-bold uppercase lg:sr-only'>projects</h2>
+      </div>
       <div>
         {projects.map((project, index) => (
           <div key={index} className='mb-6'>
