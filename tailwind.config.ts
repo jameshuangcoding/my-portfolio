@@ -13,6 +13,7 @@ const config: Config = {
         'onyx': '#393D3F',
         'new-white': '#FDFDFF',
         'slight-grey': '#F8F8F8',
+        'cadet-grey': '#A5ABAF'
       },
       fontFamily: {
         sans: ['var(--font-inter)'],

@@ -16,7 +16,7 @@ const Projects = () => {
           <div key={index} className='mb-6'>
             <div className='flex justify-between'>
               <Link href={project.link}>
-                <h3 className='font-bold'>{project.title}</h3>
+                <h3 className='font-bold hover:text-cadet-grey'>{project.title}</h3>
               </Link>
             </div>
             <p>{project.description}</p>

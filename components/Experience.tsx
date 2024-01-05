@@ -16,7 +16,7 @@ const Experience = () => {
           <div key={index}>
             <div className='flex justify-between'>
               <Link href={experience.link}>
-                <h3 className='font-bold'>{experience.company}</h3>
+                <h3 className='font-bold hover:text-cadet-grey'>{experience.company}</h3>
               </Link>
               <p>{experience.time}</p>
             </div>
