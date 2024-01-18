@@ -51,4 +51,16 @@ export const projects: Project[] = [
     ],
     link: 'https://github.com/NYOI7-Mewtwo/whats-above-me',
   },
+  {
+    title: "jameshuang.dev (v1)",
+    description: 'My Portfolio',
+    technologiesUsed: [
+      'React',
+      'Next.js',
+      'JavaScript',
+      'TypeScript',
+      'TailwindCSS',
+    ],
+    link: 'https://github.com/jameshuangcoding/my-portfolio',
+  },
 ];
