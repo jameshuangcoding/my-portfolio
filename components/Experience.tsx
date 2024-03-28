@@ -16,11 +16,13 @@ const Experience = () => {
           <div key={index}>
             <div className='flex justify-between'>
               <Link href={experience.link}>
-                <h3 className='font-bold hover:text-cadet-grey'>{experience.company}</h3>
+                <h3 className='font-bold hover:text-cadet-grey'>{experience.company}
+                </h3>
               </Link>
               <p>{experience.time}</p>
             </div>
-            <p>{experience.position}</p>
+            <p className='mb-2'>{experience.position}</p>
+            <p className='mb-4'>{experience.description}</p>
             <ul className='flex flex-wrap gap-2 mt-2'>
               {experience.technologiesUsed.map((tech, index) => (
                 <li key={index}>

@@ -7,7 +7,7 @@ import Skills from "../components/Skills";
 const RightContainer = () => {
   return (
     <main className='lg:w-1/2 lg:py-24 lg:px-4 pt-24'>
-        <SelfImage />
+        {/* <SelfImage /> */}
         <About />
         <Skills />
         <Experience />

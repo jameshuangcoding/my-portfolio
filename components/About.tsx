@@ -8,17 +8,19 @@ const About = () => {
         <h2 className='text-lg font-bold uppercase lg:sr-only'>about</h2>
       </div>
       <p className='mb-4'>
-        I enjoy tackling complex problems and building large scale applications
-        to make people&apos;s lives better and simpler, including my own.
+        Hey, I’m James, and I’m a software engineer who is passionate about
+        building applications to make people’s lives better and simpler. Most
+        recently, I have been developing software for the open source community.
       </p>
       <p className='mb-4'>
-        In my free time, you can catch me paddling in a{' '}
-        <a href='https://www.dchracing.com/' className='hover:text-red-500 '>
+        When I’m not at the computer, I’m usually rock climbing or playing
+        pickleball. Depending on the season, you can also find me snowboarding,
+        paddling in a{' '}
+        <a href='https://www.dchracing.com/' className='font-medium hover:text-custom-orange '>
           dragon boat
         </a>
-        , playing pickleball at the courts, or snowboarding in the mountains.
+        , or helping out my lion dance team.
       </p>
-      <p></p>
     </section>
   );
 };

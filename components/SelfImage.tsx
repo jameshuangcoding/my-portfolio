@@ -4,8 +4,8 @@ const SelfImage = () => {
   return (
     <Image
       className='hidden lg:mb-36 lg:block'
-      src='/black-white-james.jpeg'
-      alt='Black White Picture of James'
+      src='/james.jpeg'
+      alt='Picture of James'
       width={600}
       height={400}
     />

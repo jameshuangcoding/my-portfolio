@@ -22,6 +22,7 @@ const Skills = () => {
           </ul>
         </span>
         <span className='flex flex-col'>
+        <h3 className='font-bold'>Libraries &</h3>
           <h3 className='font-bold'>Frameworks</h3>
           <ul>
             {frameworks.map((framework, index) => (

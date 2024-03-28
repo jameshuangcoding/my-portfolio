@@ -19,7 +19,7 @@ const Projects = () => {
                 <h3 className='font-bold hover:text-cadet-grey'>{project.title}</h3>
               </Link>
             </div>
-            <p>{project.description}</p>
+            <p className='mb-4'>{project.description}</p>
             <ul className='flex flex-wrap gap-2 mt-2'>
               {project.technologiesUsed.map((tech, index) => (
                 <li key={index}>
