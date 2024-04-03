@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#dragon-boat-link{
+    cursor: url('../../public/paddler.png'), auto;
+}
+
+#lion-dance-link{
+    cursor: url('../../public/lion-dance.png'), auto;
+}

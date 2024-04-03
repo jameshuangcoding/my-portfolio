@@ -23,9 +23,9 @@ const config: Config = {
         mono: ['var(--font-roboto-mono)'],
         raleway: [],
       },
-      // cursor: {
-      //   'dragon-boat': ''
-      // }
+      cursor: {
+        'dragon-boat': '',
+      }
     },
   },
   plugins: [],

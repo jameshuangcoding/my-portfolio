@@ -16,10 +16,21 @@ const About = () => {
         When I’m not at the computer, I’m usually rock climbing or playing
         pickleball. Depending on the season, you can also find me snowboarding,
         paddling in a{' '}
-        <a href='https://www.dchracing.com/' className='font-medium hover:text-custom-orange '>
+        <a
+          href='https://www.dchracing.com/'
+          id='dragon-boat-link'
+          className='font-medium hover:text-custom-orange'
+        >
           dragon boat
         </a>
-        , or helping out my lion dance team.
+        , or helping out my{' '}
+        <a
+          id='lion-dance-link'
+          className='font-medium hover:text-custom-orange'
+        >
+          lion dance
+        </a>{' '}
+        team.
       </p>
     </section>
   );
