@@ -13,11 +13,13 @@ const Experience = () => {
       </div>
       <div>
         {experiences.map((experience, index) => (
-          <div key={index}>
+          <div key={index} className='mb-6'>
             <div className='flex justify-between'>
-              <Link href={experience.link}>
-                <h3 className='font-bold hover:text-cadet-grey'>{experience.company}
-                </h3>
+              <Link href={experience.link} className='underline'>
+                <span className='font-bold'>{experience.company}</span>
+                <svg viewBox='0 0 13 20'>
+                  <polyline points='0.5 19.5 3 19.5 12.5 10 3 0.5' />
+                </svg>
               </Link>
               <p>{experience.time}</p>
             </div>

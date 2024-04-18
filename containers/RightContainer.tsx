@@ -9,7 +9,7 @@ const RightContainer = () => {
     <main className='lg:w-1/2 lg:py-24 lg:px-4 pt-24'>
         {/* <SelfImage /> */}
         <About />
-        <Skills />
+        {/* <Skills /> */}
         <Experience />
         <Projects />
     </main>

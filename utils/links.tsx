@@ -11,18 +11,18 @@ export interface Link {
 export const links: Link[] = [
   {
     path: 'https://www.linkedin.com/in/jameshuang07/',
-    icon: <FaLinkedin />,
+    icon: <FaLinkedin/>,
   },
   {
     path: 'https://github.com/jameshuangcoding',
-    icon: <IoLogoGithub />,
+    icon: <IoLogoGithub/>,
   },
   {
     path: 'mailto:jhuang4647@gmail.com',
-    icon: <IoIosMail />,
+    icon: <IoIosMail/>,
   },
   {
     path: 'resume.pdf',
-    icon: <FaFileContract />,
+    icon: <FaFileContract/>,
   },
 ];

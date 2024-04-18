@@ -6,7 +6,7 @@ const Buttons = () => {
     <ul className='flex gap-2 my-2'>
       {links.map((link, index) => (
         <li key={index}>
-          <Link href={link.path} className='text-2xl'>
+          <Link href={link.path} id='social-media-links' className='text-4xl'>
             {link.icon}
           </Link>
         </li>

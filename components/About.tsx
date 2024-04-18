@@ -13,24 +13,20 @@ const About = () => {
         recently, I have been developing software for the open source community.
       </p>
       <p className='mb-4'>
-        When I’m not at the computer, I’m usually rock climbing or playing
-        pickleball. Depending on the season, you can also find me snowboarding,
-        paddling in a{' '}
+        When I’m not at the computer, I’m usually{' '}
         <a
-          href='https://www.dchracing.com/'
-          id='dragon-boat-link'
-          className='font-medium hover:text-custom-orange'
+          href='https://www.instagram.com/letjamezcook/'
+          id='about-links'
         >
+          cooking
+        </a>
+        , rock climbing or running in preparation for the upcoming marathon.
+        Depending on the season, you can also find me snowboarding, playing
+        handball or pickleball at the park, paddling in a{' '}
+        <a href='https://www.dchracing.com/' id='about-links'>
           dragon boat
         </a>
-        , or helping out my{' '}
-        <a
-          id='lion-dance-link'
-          className='font-medium hover:text-custom-orange'
-        >
-          lion dance
-        </a>{' '}
-        team.
+        , or helping out my lion dance team.
       </p>
     </section>
   );

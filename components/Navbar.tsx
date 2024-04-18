@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className='hidden lg:block'>
       <ul className='text-lg mt-10 w-max'>
         {navLinks.map((navLink, index) => (
-          <li key={index}>
+          <li key={index} className='mt-2'>
             <Link href={navLink.path}>{navLink.name}</Link>
           </li>
         ))}

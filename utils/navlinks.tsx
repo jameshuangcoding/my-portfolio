@@ -8,10 +8,10 @@ export const navLinks: NavLink[] = [
     path: '#about',
     name: 'About',
   },
-  {
-    path: '#skills',
-    name: 'Skills',
-  },
+  // {
+  //   path: '#skills',
+  //   name: 'Skills',
+  // },
   {
     path: '#experience',
     name: 'Experience',
