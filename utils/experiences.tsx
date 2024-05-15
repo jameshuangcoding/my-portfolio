@@ -9,11 +9,20 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    company: 'NextSketch',
+    company: 'Dev-Overflow',
+    position: 'Volunteer Software Engineer',
+    time: "Jan '24 - Present",
+    technologiesUsed: ['Python', 'Playwright', 'DynamoDB', 'AWS Lambda'],
+    link: '',
+    description:
+      'Develop and test bank scrapers for CircAlert - a product that monitors bank circulars globally and alerts users when a new circular is published. Build two pipelines to streamline scarped data to DynamoDB and to notify users through email using Amazon SQS and Postmark.',
+  },
+  {
+    company: 'OSLabs',
     position: 'Software Engineer',
     time: "May '23 - Present",
     description:
-      "Build critical components to construct NextSketch's frontend, across the whole product. Worked closely with a team of engineers to implement and develop drag-and-drop interfaces, file directory, a collapsible tree visualize, and a code preview window for a Next.js prototyping tool.",
+      'Construct critical features for NextSketch - a prototyping and visualization tool for Next.js developers. Work closely with a team of engineers to implement and develop drag-and-drop interfaces, file directory, a collapsible tree visualize, and a code preview window.',
     technologiesUsed: [
       'React',
       'Node.js',
