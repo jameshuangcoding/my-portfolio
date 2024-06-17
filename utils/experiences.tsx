@@ -11,7 +11,7 @@ export const experiences: Experience[] = [
   {
     company: 'Dev-Overflow',
     position: 'Volunteer Software Engineer',
-    time: "Jan '24 - Present",
+    time: "Mar '24 - Present",
     technologiesUsed: ['Python', 'Playwright', 'DynamoDB', 'AWS Lambda'],
     link: '',
     description:
@@ -20,7 +20,7 @@ export const experiences: Experience[] = [
   {
     company: 'OSLabs',
     position: 'Software Engineer',
-    time: "May '23 - Present",
+    time: "May '23 - March '24",
     description:
       'Construct critical features for NextSketch - a prototyping and visualization tool for Next.js developers. Work closely with a team of engineers to implement and develop drag-and-drop interfaces, file directory, a collapsible tree visualize, and a code preview window.',
     technologiesUsed: [
