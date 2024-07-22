@@ -18,7 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en' className='!scroll-smooth'>
-      <body className={`${inter.variable} font-sans bg-custom-white text-custom-black`}>
+      <body
+        className={`${inter.variable} font-sans bg-custom-white text-custom-black`}
+      >
         <div className='mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0'>
           {children}
         </div>

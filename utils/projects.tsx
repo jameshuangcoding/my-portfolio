@@ -7,6 +7,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: 'Clearview',
+    description: 'Tool for detecting types of chest cancer based on CT scans',
+    technologiesUsed: ['Python', 'Tensorflow', 'Keras'],
+    link: 'https://www.kaggle.com/code/jameshuangcoding/chest-cancer-ct-scan-detector',
+  },
+  {
     title: 'Alley',
     description: 'Web app for locating tennis courts',
     technologiesUsed: [
@@ -21,12 +27,6 @@ export const projects: Project[] = [
       'Webpack',
     ],
     link: 'https://github.com/Stab-Rabbit-NYOI7/tennis-mapper',
-  },
-  {
-    title: 'Clearview',
-    description: 'Tool for detecting types of chest cancer based on CT scans',
-    technologiesUsed: ['Python', 'Tensorflow', 'Keras'],
-    link: 'https://www.kaggle.com/code/jameshuangcoding/chest-cancer-ct-scan-detector',
   },
   {
     title: 'Memo',
