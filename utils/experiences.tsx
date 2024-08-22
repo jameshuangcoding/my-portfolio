@@ -11,7 +11,7 @@ export const experiences: Experience[] = [
   {
     company: 'Dev-Overflow',
     position: 'Software Engineer',
-    time: "Mar '24 - Present",
+    time: "Nov '23 - Present",
     technologiesUsed: [
       'Python',
       'Playwright',
@@ -27,7 +27,7 @@ export const experiences: Experience[] = [
   {
     company: 'OSLabs',
     position: 'Software Engineer',
-    time: "May '23 - March '24",
+    time: "May '23 - Nov '23",
     description: 'Constructed critical features for NextSketch',
     technologiesUsed: [
       'React',
