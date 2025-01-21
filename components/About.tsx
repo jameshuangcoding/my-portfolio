@@ -9,8 +9,7 @@ const About = () => {
       </div>
       <p className='mb-4'>
         Hey, I’m James, and I’m a software engineer who is passionate about
-        building applications to make people’s lives better and simpler. Most
-        recently, I have been developing software for the open source community.
+        building applications to make people’s lives better and simpler.
       </p>
       <p className='mb-4'>
         When I’m not at the computer, I’m usually{' '}

@@ -9,9 +9,17 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    company: 'Chickasaw Nation Industries',
+    position: 'Software Engineer',
+    time: "Oct '24 - Present",
+    technologiesUsed: ['C#', 'ASP.NET', 'AWS'],
+    link: 'https://www.chickasaw.com/',
+    description: '',
+  },
+  {
     company: 'Dev-Overflow',
     position: 'Software Engineer',
-    time: "Nov '23 - Present",
+    time: "Aug '23 - Oct '24",
     technologiesUsed: [
       'Python',
       'Playwright',
@@ -27,13 +35,12 @@ export const experiences: Experience[] = [
       'Vitest',
     ],
     link: '',
-    description:
-      '',
+    description: '',
   },
   {
-    company: 'NextSketch',
+    company: 'OSLabs',
     position: 'Software Engineer',
-    time: "May '23 - Nov '23",
+    time: "Jan '23 - Aug '23",
     description: '',
     technologiesUsed: [
       'React',
@@ -48,7 +55,7 @@ export const experiences: Experience[] = [
       'Jest',
       'Electron',
       'Vercel',
-      'EC2'
+      'EC2',
     ],
     link: 'https://nextsketch.vercel.app/',
   },
